@@ -65,6 +65,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # TWRP Configuration
+AB_OTA_UPDATER := false
 TW_THEME := portrait_hdpi
 TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_NTFS_3G := true
