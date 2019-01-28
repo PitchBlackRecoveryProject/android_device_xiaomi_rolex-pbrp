@@ -71,6 +71,7 @@ TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_OLD := true
+TW_HAS_EDL_MODE := true
 TW_MAX_BRIGHTNESS := 255
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_SCREEN_BLANK_ON_BOOT := true
