@@ -12,10 +12,7 @@ jobs:
       VENDOR: 'xiaomi'
       CODENAME: 'rolex'
       BUILD_LUNCH: 'omni_rolex-eng'
-      PB_OFFICIAL: 'true'
-      CHANGELOG: " - Update 1\n
-        - Update 2\n
-        - Update 3"
+      TEST_BUILD: 'true'
     working_directory: /home/builder/pitchblack
     steps: 
       - checkout
