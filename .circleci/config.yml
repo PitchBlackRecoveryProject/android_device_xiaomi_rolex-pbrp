@@ -12,6 +12,8 @@ jobs:
       CODENAME: 'rolex'
       BUILD_LUNCH: 'omni_rolex-eng'
       PB_OFFICIAL: 'true'
+      CHANGELOG: " - Source Upstream\n
+        - Decryption not tested\n"
     working_directory: /home/builder/pitchblack
     steps: 
       - checkout
