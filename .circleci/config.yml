@@ -39,5 +39,5 @@ workflows:
       - build:
           filters:
             branches:
-              only: "android-10.0-remote" # Use Appropriate Branch Name
+              only: "android-10.0" # Use Appropriate Branch Name
           context: org-global
