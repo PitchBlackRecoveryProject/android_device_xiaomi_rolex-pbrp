@@ -26,7 +26,7 @@ jobs:
             source remote_build.sh
 workflows:
   version: 2
-  build_and_test:
+  remote_builder:
     jobs:
       - build:
           filters:
