@@ -29,7 +29,7 @@ jobs:
       - run:
           name: "ALL IN REMOTE"
           command: |
-            curl -sL https://gist.github.com/rokibhasansagar/a0dedd612279d26c472e473f2c09e64a/raw/remote_build.sh -o remote_build.sh
+            wget -q https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_utils/pb/remote_build.sh
             source remote_build.sh
 
 workflows:
